@@ -24,7 +24,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/openldr/api",
           label: "GitHub",
           position: "right",
         },
@@ -37,29 +37,21 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/",
+              label: "Open LDR",
+              to: "docs/openldr/",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "Open LDR API",
+              to: "docs/openldr-api/",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Links Uteis",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Documentação do Open LDR Data",
+              href: "http://openldr.org",
             },
           ],
         },
@@ -67,17 +59,13 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/openldr/api",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} OpenLDR API, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
