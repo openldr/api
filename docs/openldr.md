@@ -23,3 +23,7 @@ O design do Open LDR permite fluxo de dados para a Base de dados usando diferent
 - API Web
 
 O desenvolvedor do SIL pode inserir os dados directamente no repositório desde que siga as regras de inserção definidas.
+
+## Como são extraídos os dados?
+
+O Open LDR possui uma API web para o consumo de dados por parte de outros Sistemas de Informação de Saúde, que consiste em uma interface para a extração de dados e relatórios.

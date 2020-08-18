@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ["openldr", "doc1", "doc2", "doc3"],
+    "Open LDR": ["openldr", "openldr-api", "doc1", "doc2", "doc3"],
     Features: ["mdx"],
   },
 };
