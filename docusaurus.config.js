@@ -3,7 +3,7 @@ module.exports = {
   tagline:
     "Bem vindo a documentação da Web API do Repositório de dados Laboratoriais (Open LDR). Este projecto é mantido pelo Ministério da Saúde e consiste na descrição do processo consumo de relatórios dos dados armazenados no Open LDR.",
   url: "https://openldr.github.io",
-  baseUrl: "/api/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "openldr", // Usually your GitHub org/user name.
